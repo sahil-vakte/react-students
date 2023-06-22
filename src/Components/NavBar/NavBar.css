@@ -1,0 +1,30 @@
+.nav-bar-main-flex-div{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar-main-width-div{
+    width: 100%;
+}
+
+.nav-bar-main-main-div{
+    padding: 20px;
+    background-color: aqua;
+}
+
+.nav-bar-main-div-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-h-tag{
+    margin: 0px;
+    cursor: pointer;
+}
+
+.nav-bar-h-tag-active{
+    color: violet;
+    border-bottom: 2px solid yellow;
+    margin: 0px;
+    cursor: pointer;
+}
