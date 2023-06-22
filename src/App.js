@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import ComponentOne from './Components/ChildToParent/ComponentOne';
+import GetRequest from './Components/GetRequest/GetRequest';
+import ListGetRequest from './Components/GetRequest/ListGetRequest';
+import MultipleDataGet from './Components/GetRequest/MultipleDataGet';
+import SingleGetRequest from './Components/GetRequest/SingleGetRequest';
+import NavBar from './Components/NavBar/NavBar';
+import PostData from './Components/PostData/PostData';
+import HomePage from './Container/HomePage/HomePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   {/* <NavBar/> */}
+   {/* <GetRequest/> */}
+   {/* <ListGetRequest/> */}
+   {/* <SingleGetRequest/> */}
+   {/* <MultipleDataGet/> */}
+   {/* <PostData/> */}
+   <ComponentOne/>
+    </>
   );
 }
 
